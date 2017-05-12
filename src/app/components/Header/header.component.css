@@ -1,0 +1,43 @@
+.logo{
+    width:156px;
+    height:47px;
+    background-size: 156px 47px;
+}
+.header-container{
+    padding: 20px;
+    border-bottom: 1px solid #ffd939;
+    display: -webkit-box;
+}
+.btn-header a{
+    color: #414141;
+    font-size: 14px;
+    font-family: Work Sans Regular;
+    padding: 10px;
+}
+.fa.fa-bars{
+    font-size: 24px;
+}
+ .fa.fa-close{
+    font-size: 27px;
+    margin-top: 15px;
+    padding-left: 0;
+}
+#left-panel{
+    background: #dbdbdb;
+    padding: 0;
+
+}
+#left-panel a{
+        color: black;
+}
+#left-panel li{
+    margin: 20px;
+}
+.fa-caret-up:before {
+    content: "\f0d8";
+    font-size: 34px;
+    position: absolute;
+    top: -24px;
+    left: 26px;
+    color: #dbdbdb;
+}
