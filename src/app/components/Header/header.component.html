@@ -4,11 +4,11 @@
     <button (click)="toggleElement()" class="hamburger" [hidden]="showElement">
     <i class="fa fa-bars col-xs-3 col-sm-3"></i>
     </button>
-    <button (click)="toggleElement()" class="hamburger" [hidden]="hideElement">
+    <button (click)="toggleElement()" class="cross" [hidden]="hideElement">
     <i class="fa fa-close col-xs-3 col-sm-3"></i>
     </button>
     </div>
-		<div class="col-xl-6 col-lg-6 col-sm-9 col-xs-9"> <img class="logo" src="./header-logo.svg"/></div>
+		<div class="col-xl-6 col-lg-6 col-sm-9 col-xs-9"> <img class="logo" src="logo.png"/></div>
 	<!-- END LOGO PLACEHOLDER -->		
 			<!-- pulled right: nav area -->
 			<div class="pull-right col-xl-6 col-lg-6 hidden-xs hidden-sm">
@@ -22,10 +22,11 @@
   </div>
   <aside id="left-panel" class="col-xs-10 col-sm-10 hidden-lg hidden-md" [hidden]="hideElement">
 			<!-- NAVIGATION : This navigation is also responsive-->
-            <i class="fa fa-caret-up"></i>
+            
 			<nav>
 				<ul>
 					<li class="active">
+					<i class="fa fa-caret-up"></i>
 						<a href="#" title="Home">
                         <span>Home</span></a>
 					</li>
@@ -58,7 +59,7 @@
                         <span>Lost your card?</span></a>
 					</li>
 				</ul>
-                <ul>
+                <ul class="Login-section">
 					<li class="active">
 						<a href="#" title="Home">
                         <span>Apply Now</span></a>

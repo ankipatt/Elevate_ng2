@@ -12,8 +12,11 @@ export class HeaderComponent  {
 
     toggleElement(){
         if(this.hideElement){
-            this.hideElement = false;}
-        else
-            this.hideElement = true;
+            this.hideElement = false;
+        this.showElement = true;}
+        else 
+            {this.showElement = false;
+            this.hideElement = true;}
+
     }
 }

@@ -2,11 +2,13 @@
     width:156px;
     height:47px;
     background-size: 156px 47px;
+    background: url(logo.png);
 }
 .header-container{
     padding: 20px;
     border-bottom: 1px solid #ffd939;
     display: -webkit-box;
+    background: white;
 }
 .btn-header a{
     color: #414141;
@@ -23,15 +25,26 @@
     padding-left: 0;
 }
 #left-panel{
-    background: #dbdbdb;
     padding: 0;
-
+	font-size:14px;
+	font-family:Work Sans Regular;
+    /*position: absolute;*/
+    min-height: 100%;
+    z-index: 2;
+    background: #ffd939;
 }
 #left-panel a{
-        color: black;
+	padding-left:15px;
+	color:#414141;
 }
 #left-panel li{
-    margin: 20px;
+    border-bottom: 1px solid #ccc;
+    padding: 13px 0;
+    background: white; 
+}
+#left-panel li:hover a, #left-panel li:hover{
+	background:#fd6b31;
+	color:#fff !important;
 }
 .fa-caret-up:before {
     content: "\f0d8";
@@ -39,5 +52,16 @@
     position: absolute;
     top: -24px;
     left: 26px;
-    color: #dbdbdb;
+    color: #ffd939;
+}
+.Login-section li{
+	background:#ffd939 !important;
+    border-bottom: none !important;
+}
+#left-panel .Login-section li:hover a{
+    background:#ffd939;
+	color:#414141 ;
+}
+#left-panel ul{
+	margin-bottom:0;
 }
